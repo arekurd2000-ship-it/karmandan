@@ -6,7 +6,7 @@
      داخل الإطار (iframe) وهي خارج نطاق هذا الـ Service Worker.
    عند تعديل أي ملف في الغلاف: غيّر رقم الإصدار VERSION ليتحدّث عند المستخدمين.
    ═══════════════════════════════════════════════════════════════ */
-const VERSION = 'v2';
+const VERSION = 'v4';
 const CACHE = 'karmendan-shell-' + VERSION;
 const SHELL = [
   './',
